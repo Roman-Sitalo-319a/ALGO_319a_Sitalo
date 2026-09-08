@@ -1,0 +1,17 @@
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double a, b, P;
+
+    cin >> a >> b;
+
+    P = 2 * a + b;
+
+    cout << P;
+
+    return 0;
+}
+```
