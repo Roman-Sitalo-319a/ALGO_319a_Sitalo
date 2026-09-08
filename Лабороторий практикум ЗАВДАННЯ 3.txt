@@ -1,17 +1,19 @@
-```cpp
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    double a, b, P;
+    double a, b;
 
-    cin >> a >> b;
+    cout << "Введіть бічну сторону a: ";
+    cin >> a;
 
-    P = 2 * a + b;
+    cout << "Введіть основу b: ";
+    cin >> b;
 
-    cout << P;
+    double P = 2 * a + b;
+
+    cout << "Периметр трикутника = " << P << endl;
 
     return 0;
 }
-```
