@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Задача: Begin 40
+    // a - бічна сторона, b - основа
+    double a, b, P;
+
+    // Введення даних
+    cout << "Enter side a: ";
+    cin >> a;
+
+    cout << "Enter base b: ";
+    cin >> b;
+
+    // Розрахунок периметра
+    P = 2 * a + b;
+
+    // Виведення результату
+    cout << "Perimeter: " << P << endl;
+
+    return 0;
+}
