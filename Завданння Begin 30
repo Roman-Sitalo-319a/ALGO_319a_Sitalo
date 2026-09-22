@@ -5,7 +5,6 @@ int main()
 {
     // Begin 30
     // Декларація змінних
-    double a, b, S;
 
     // Введення катетів
     cout << "Enter cathetus a: ";
