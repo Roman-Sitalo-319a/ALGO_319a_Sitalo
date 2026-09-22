@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    // Begin 30
+    // Декларація змінних
+    double a, b, S;
+
+    // Введення катетів
+    cout << "Enter cathetus a: ";
+    cin >> a;
+
+    cout << "Enter cathetus b: ";
+    cin >> b;
+
+    // Розрахунок площі прямокутного трикутника
+    S = (a * b) / 2;
+
+    // Виведення результату
+    cout << "Triangle area: " << S << endl;
+
+    return 0;
+}
