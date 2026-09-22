@@ -5,7 +5,6 @@ int main()
 {
     // Задача: Begin 40
     // a - бічна сторона, b - основа
-    double a, b, P;
 
     // Введення даних
     cout << "Enter side a: ";
